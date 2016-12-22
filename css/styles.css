@@ -1,0 +1,29 @@
+
+@import url(https://fonts.googleapis.com/css?family=Gabriela);
+    html,
+    body {
+        min-width: 150px;
+        min-height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    button {
+        background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+        font-family: 'Gabriela', serif;
+        padding: 5%;
+        font-size: 1.5em;
+        border-radius: 5px;
+        background-color: #63b8ee;
+        border: 1px solid #000;
+        font-weight: bold;
+        color: white;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+    
+    button:hover {
+        background: linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+        background-color: #468ccf;
+    }
+    
