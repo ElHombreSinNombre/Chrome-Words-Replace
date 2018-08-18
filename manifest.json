@@ -20,6 +20,6 @@
         "matches": [
             "<all_urls>"
         ],
-        "js": ["scripts.js"]
+        "js": ["js/scripts.js"]
     }]
 }
